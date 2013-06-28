@@ -1,0 +1,139 @@
+/**
+ * CSS styles for CLinkPager.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @link http://www.yiiframework.com/
+ * @copyright Copyright &copy; 2008-2010 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ * @since 1.0
+ */
+
+ul.yiiPager
+{
+	font-size:11px;
+	border:0;
+	margin:0;
+	padding:0;
+	line-height:100%;
+	display:inline;
+}
+
+ul.yiiPager li
+{
+	display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	border:solid 1px #9aafe5;
+	font-weight:bold;
+	color:#0e509e;
+	padding:1px 6px;
+	text-decoration:none;
+}
+
+ul.yiiPager .page a
+{
+	font-weight:normal;
+}
+
+ul.yiiPager a:hover
+{
+	border:solid 1px #0e509e;
+}
+
+ul.yiiPager .selected a
+{
+	background:#2e6ab1;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+	border:solid 1px #DEDEDE;
+	color:#888888;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+	/*display:none;*/
+	display:inline;
+}
+
+/* My mod at /CSS, CSS filename is rd.css */
+
+.work-member-view
+{
+	/*float: left;*/
+	/*display: block;*/
+	display: inline-block;
+	
+	border: solid 1px #d6d6d6;  
+	padding: 10px;
+
+	/*font-size: 1.5em;*/
+	background-color: #f8f8f8;
+}
+
+.callsign-view
+{
+	/*float: left;*/
+	/*display: block;*/
+	display: inline-block;
+	
+	border: solid 1px #d6d6d6;  
+	padding: 10px;
+
+	font-size: 1.5em;
+	background-color: #f8f8f8;
+}
+
+.callsign-view a
+{
+	text-decoration: none;
+	color: #555;
+}
+
+.callsign-view a:hover
+{
+	text-decoration: underline;
+	color: #599;
+}
+
+
+/*table.ty-table, th.ty, td.ty*/
+table.ty-table
+{
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+
+tr.ty-odd
+{
+	background-color:#f6f6f6;
+}
+
+tr.ty-even
+{
+}
+
+tr.ty-total
+{
+	background-color:#b5c7de;
+}
+
+td.ty-table
+{
+	border:1px solid #dedede;
+}
+
+th.ty-table
+{
+	border:1px solid #bbb;
+}
